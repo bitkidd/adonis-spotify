@@ -1,6 +1,6 @@
 # Adonis Spotify <img src="https://reps.ams3.cdn.digitaloceanspaces.com/spotify_logo.png" alt="Spotify icon" width="25px" height="25px">
 
-This service provider makes it easier to integrate and to work with Stripe official library.
+This service provider makes it easier to integrate and to work with Spotify WEB API.
 
 Service provider is based currently on [Spotify Web API](https://github.com/thelinmichael/spotify-web-api-node) wrapper, 
 you may follow its guides and examples.

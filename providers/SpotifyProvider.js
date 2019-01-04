@@ -7,8 +7,8 @@ class SpotifyProvider extends ServiceProvider {
   register () {
     this.app.singleton('Adonis/Addons/Spotify', (app) => {
       const Env = app.use('Adonis/Src/Env')
-      const clientId = Env.get('STRIPE_API_KEY')
-      const clientSecret = Env.get('STRIPE_API_KEY')
+      const clientId = Env.get('SPOTIFY_CLIENT_ID')
+      const clientSecret = Env.get('SPOTIFY_CLIENT_SECRET')
       const spotifyInstance = new SpotifyWebApi({ clientId, clientSecret })
 
       return spotifyInstance

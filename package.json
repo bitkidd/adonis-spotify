@@ -1,6 +1,6 @@
 {
   "name": "adonis-spotify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Spotify service provider for Adonis",
   "main": "index.js",
   "scripts": {
